@@ -6,7 +6,7 @@ const nextConfig = {
     locales: ['ar'],
     defaultLocale: 'ar',
   },
-  // API proxy to backend
+  // API proxy to backend (backend runs on port 3001)
   async rewrites() {
     return [
       {
