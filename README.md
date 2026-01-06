@@ -66,6 +66,22 @@ manasah/
 
 ### 🚀 بدء الاستخدام
 
+#### البدء السريع (Quick Start)
+
+```bash
+# 1. تثبيت جميع المكتبات
+npm run install:all
+
+# 2. إعداد قاعدة البيانات
+npm run prisma:migrate
+npm run prisma:seed
+
+# 3. تشغيل الخادم الخلفي والواجهة الأمامية معاً
+npm run dev
+```
+
+#### الخطوات التفصيلية (Detailed Setup)
+
 #### 1. إعداد قاعدة البيانات
 
 ```sql
@@ -92,6 +108,22 @@ npm run start:dev
 cd frontend
 npm install
 npm run dev
+```
+
+#### أوامر مفيدة (Useful Commands)
+
+```bash
+# تشغيل وضع التطوير
+npm run dev
+
+# بناء المشروع للإنتاج
+npm run build
+
+# تشغيل الإنتاج
+npm run start
+
+# إدارة قاعدة البيانات
+npm run prisma:studio
 ```
 
 ### 🔑 حسابات الاختبار
@@ -162,6 +194,22 @@ manasah/
 
 ### 🚀 Getting Started
 
+#### Quick Start
+
+```bash
+# 1. Install all dependencies
+npm run install:all
+
+# 2. Setup database
+npm run prisma:migrate
+npm run prisma:seed
+
+# 3. Run both backend and frontend
+npm run dev
+```
+
+#### Detailed Setup
+
 #### 1. Setup Database
 
 ```sql
@@ -188,6 +236,22 @@ npm run start:dev
 cd frontend
 npm install
 npm run dev
+```
+
+#### Useful Commands
+
+```bash
+# Run development mode
+npm run dev
+
+# Build for production
+npm run build
+
+# Run production
+npm run start
+
+# Database management
+npm run prisma:studio
 ```
 
 ### 🔑 Test Accounts
