@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لِمّ المنهج - منصة التعليم البرمجي الحديثة</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700;900&family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <circle cx="16" cy="16" r="15" stroke="#06D6D6" stroke-width="2"/>
+                    <path d="M10 16L14 20L22 12" stroke="#06D6D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="logo-text">لِمّ المنهج</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">المميزات</a></li>
+                <li><a href="#courses">الدورات</a></li>
+                <li><a href="#about">عننا</a></li>
+                <li><a href="#contact" class="cta-link">ابدأ الآن</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <!-- Right side: Text content (RTL order) -->
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    تعلم البرمجة 
+                    <span class="highlight">من الصفر</span>
+                    إلى الاحترافية
+                </h1>
+                <p class="hero-description">
+                    منصة تعليمية حديثة توفر دورات برمجية شاملة باللغة العربية، مع مشاريع عملية وتدريب مباشر من الخبراء
+                </p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary">ابدأ مجاناً</button>
+                    <button class="btn btn-secondary">اعرف أكثر</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">5000+</span>
+                        <span class="stat-label">متعلم نشط</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">دورة متقدمة</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">معدل الرضا</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left side: Illustration (RTL order) -->
+            <div class="hero-illustration">
+                <svg class="character" viewBox="0 0 300 350" fill="none">
+                    <!-- Chair -->
+                    <rect x="80" y="220" width="140" height="100" rx="8" fill="#1F2937" stroke="#06D6D6" stroke-width="2"/>
+                    <rect x="85" y="220" width="20" height="80" fill="#06D6D6" rx="4"/>
+                    <rect x="195" y="220" width="20" height="80" fill="#06D6D6" rx="4"/>
+                    
+                    <!-- Laptop -->
+                    <g>
+                        <rect x="60" y="140" width="180" height="100" rx="8" fill="#0F172A" stroke="#06D6D6" stroke-width="2"/>
+                        <rect x="70" y="150" width="160" height="75" rx="4" fill="#1E293B"/>
+                        <!-- Screen glow -->
+                        <rect x="70" y="150" width="160" height="75" rx="4" fill="#06D6D6" opacity="0.1"/>
+                        <!-- Code lines on screen -->
+                        <line x1="80" y1="165" x2="130" y2="165" stroke="#A855F7" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="80" y1="180" x2="140" y2="180" stroke="#06D6D6" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="80" y1="195" x2="120" y2="195" stroke="#A855F7" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="145" y1="165" x2="220" y2="165" stroke="#06D6D6" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="145" y1="180" x2="210" y2="180" stroke="#A855F7" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="145" y1="195" x2="215" y2="195" stroke="#06D6D6" stroke-width="1.5" stroke-linecap="round"/>
+                        <!-- Keyboard base -->
+                        <rect x="65" y="240" width="170" height="15" rx="2" fill="#06D6D6" opacity="0.3"/>
+                    </g>
+
+                    <!-- Person body and head -->
+                    <g class="person">
+                        <!-- Head -->
+                        <circle cx="150" cy="70" r="25" fill="#FFD4A3" stroke="#06D6D6" stroke-width="1.5"/>
+                        
+                        <!-- Hair -->
+                        <path d="M 125 60 Q 125 45 150 45 Q 175 45 175 60" fill="#2C1810" stroke="#06D6D6" stroke-width="1.5"/>
+                        
+                        <!-- Eyes -->
+                        <circle cx="140" cy="65" r="2.5" fill="#1F2937"/>
+                        <circle cx="160" cy="65" r="2.5" fill="#1F2937"/>
+                        
+                        <!-- Smile -->
+                        <path d="M 140 75 Q 150 80 160 75" stroke="#1F2937" stroke-width="2" stroke-linecap="round" fill="none"/>
+                        
+                        <!-- Neck -->
+                        <rect x="145" y="92" width="10" height="12" fill="#FFD4A3"/>
+                        
+                        <!-- Torso -->
+                        <ellipse cx="150" cy="125" rx="28" ry="32" fill="#A855F7" stroke="#06D6D6" stroke-width="1.5"/>
+                        
+                        <!-- Arms raised (typing position) -->
+                        <g>
+                            <!-- Left arm -->
+                            <line x1="122" y1="115" x2="95" y2="105" stroke="#FFD4A3" stroke-width="6" stroke-linecap="round"/>
+                            <circle cx="92" cy="103" r="5" fill="#FFD4A3"/>
+                            
+                            <!-- Right arm -->
+                            <line x1="178" y1="115" x2="205" y2="105" stroke="#FFD4A3" stroke-width="6" stroke-linecap="round"/>
+                            <circle cx="208" cy="103" r="5" fill="#FFD4A3"/>
+                        </g>
+                        
+                        <!-- Legs -->
+                        <line x1="140" y1="155" x2="135" y2="210" stroke="#1F2937" stroke-width="5" stroke-linecap="round"/>
+                        <line x1="160" y1="155" x2="165" y2="210" stroke="#1F2937" stroke-width="5" stroke-linecap="round"/>
+                        
+                        <!-- Shoes -->
+                        <ellipse cx="135" cy="215" rx="5" ry="8" fill="#06D6D6"/>
+                        <ellipse cx="165" cy="215" rx="5" ry="8" fill="#06D6D6"/>
+                    </g>
+
+                    <!-- Floating elements -->
+                    <g class="floating-icons">
+                        <!-- Code bracket -->
+                        <path d="M 25 100 L 35 90 L 35 110" stroke="#06D6D6" stroke-width="2" fill="none" stroke-linecap="round"/>
+                        <path d="M 275 100 L 265 90 L 265 110" stroke="#A855F7" stroke-width="2" fill="none" stroke-linecap="round"/>
+                        
+                        <!-- Lightbulb -->
+                        <circle cx="50" cy="40" r="8" fill="#FBBF24" stroke="#06D6D6" stroke-width="1.5"/>
+                        <rect x="47" y="48" width="6" height="6" fill="#FBBF24" stroke="#06D6D6" stroke-width="1"/>
+                        <line x1="46" y1="56" x2="54" y2="56" stroke="#06D6D6" stroke-width="1.5"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Decorative elements -->
+        <div class="hero-decoration hero-decoration-1"></div>
+        <div class="hero-decoration hero-decoration-2"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">لماذا لِمّ المنهج؟</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" stroke="#06D6D6" stroke-width="2"/>
+                            <path d="M24 10V24L32 32" stroke="#06D6D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>تعلم بخطوك الخاص</h3>
+                    <p>لا توقيت محدد، تعلم متى تشاء وبالسرعة التي تناسبك</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="8" y="8" width="32" height="32" rx="4" stroke="#A855F7" stroke-width="2"/>
+                            <path d="M16 20H32M16 28H28" stroke="#A855F7" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>مشاريع عملية حقيقية</h3>
+                    <p>طبق ما تعلمته على مشاريع واقعية وبناء محفظتك</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="16" stroke="#06D6D6" stroke-width="2"/>
+                            <path d="M18 20C16.9 20 16 20.9 16 22V32C16 33.1 16.9 34 18 34H30C31.1 34 32 33.1 32 32V22C32 20.9 31.1 20 30 20M18 20C18 18.9 18.9 18 20 18H28C29.1 18 30 18.9 30 20" stroke="#06D6D6" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>دعم من الخبراء</h3>
+                    <p>تواصل مباشر مع مدربين متخصصين ومجتمع داعم</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 8L30 20H42L33 27L36 39L24 32L12 39L15 27L6 20H18L24 8Z" stroke="#FBBF24" stroke-width="2" fill="#FBBF24" fill-opacity="0.2"/>
+                        </svg>
+                    </div>
+                    <h3>شهادات معترف بها</h3>
+                    <p>احصل على شهادات تثري سيرتك الذاتية</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="16" stroke="#A855F7" stroke-width="2"/>
+                            <path d="M20 24L22 26L28 20" stroke="#A855F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>محتوى محدث باستمرار</h3>
+                    <p>نتابع أحدث الاتجاهات والتقنيات في عالم البرمجة</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="16" stroke="#06D6D6" stroke-width="2"/>
+                            <path d="M20 28C22.21 30.21 25.79 30.21 28 28M20 22H28M20 16H28" stroke="#06D6D6" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>واجهة سهلة الاستخدام</h3>
+                    <p>تجربة تعليمية سلسة وممتعة لكل المستويات</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Preview Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <h2 class="section-title">دوراتنا الشهيرة</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-badge">مبتدئ</div>
+                    <h3>أساسيات البرمجة بـ Python</h3>
+                    <p>ابدأ رحلتك البرمجية من الصفر مع أحد أقوى لغات البرمجة</p>
+                    <div class="course-meta">
+                        <span>24 ساعة</span>
+                        <span>12 درس</span>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-badge">متوسط</div>
+                    <h3>بناء تطبيقات ويب عصرية</h3>
+                    <p>تعلم React و JavaScript لإنشاء واجهات مستخدم تفاعلية</p>
+                    <div class="course-meta">
+                        <span>40 ساعة</span>
+                        <span>20 درس</span>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-badge">متقدم</div>
+                    <h3>تطوير تطبيقات الهاتف الذكي</h3>
+                    <p>أنشئ تطبيقات iOS و Android احترافية باستخدام Flutter</p>
+                    <div class="course-meta">
+                        <span>50 ساعة</span>
+                        <span>25 درس</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container cta-content">
+            <h2>هل أنت مستعد لتغيير حياتك المهنية؟</h2>
+            <p>انضم إلى آلاف المتعلمين الذين غيروا مسارهم الوظيفي من خلال لِمّ المنهج</p>
+            <button class="btn btn-primary btn-large">ابدأ الآن مجاناً</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>لِمّ المنهج</h4>
+                <p>منصة تعليمية حديثة لتعلم البرمجة باللغة العربية</p>
+            </div>
+            <div class="footer-section">
+                <h4>الروابط</h4>
+                <ul>
+                    <li><a href="#">عن المنصة</a></li>
+                    <li><a href="#">الدورات</a></li>
+                    <li><a href="#">المدونة</a></li>
+                    <li><a href="#">اتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>تابعنا</h4>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 لِمّ المنهج. جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
