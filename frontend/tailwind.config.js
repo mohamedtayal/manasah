@@ -36,6 +36,9 @@ module.exports = {
         },
         dark: {
           DEFAULT: '#0A0A0F',
+          bg: '#0A0A0F',
+          surface: '#141419',
+          border: '#1E1E28',
           50: '#1E1E28',
           100: '#18181F',
           200: '#141419',
